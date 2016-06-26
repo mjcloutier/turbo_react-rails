@@ -4,9 +4,9 @@ if (typeof Turbolinks === 'undefined') {
   throw "Missing Turbolinks dependency. TurboReact requires Turbolinks be included before it.";
 }
 
-var HTMLtoJSX = require("htmltojsx");
-var JSXTransformer = require("react-tools");
-var React = require("react");
+// var HTMLtoJSX = require("htmltojsx");
+// var JSXTransformer = require("react-tools");
+// var React = require("react");
 
 // Disable the Turbolinks page cache to prevent Tlinks from storing versions of
 // pages with `react-id` attributes in them. When popping off the history, the
