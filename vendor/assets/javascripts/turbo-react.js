@@ -1,6 +1,6 @@
 "use strict";
 
-if (global.Turbolinks === undefined) {
+if (typeof Turbolinks === 'undefined') {
   throw "Missing Turbolinks dependency. TurboReact requires Turbolinks be included before it.";
 }
 
